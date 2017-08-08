@@ -1,0 +1,14 @@
+<!--index.wxml-->
+
+<button type="OLT" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="OLT" hover-class="other-button-hover"> OLT </button>
+<button type="PON" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="PON" hover-class="other-button-hover"> PON </button>
+<button type="UP_LINK" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="UP_LINK" hover-class="other-button-hover"> UP_LINK </button>
+<button type="FTTB-IP(NGN)" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="FTTB-IP(NGN)" hover-class="other-button-hover"> FTTB-IP(NGN) </button>
+<button type="FTTB-IP(IMS)" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="FTTB-IP(IMS)" hover-class="other-button-hover"> FTTB-IP(IMS) </button>
+<button type="" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="FTTH-IP" hover-class="other-button-hover"> FTTH-IP </button>

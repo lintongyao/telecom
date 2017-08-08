@@ -1,0 +1,7 @@
+<!--index.wxml-->
+
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="OLT上联口拥塞" hover-class="other-button-hover"> OLT上联口拥塞 </button>
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="OLT PON口拥塞" hover-class="other-button-hover"> OLT PON口拥塞 </button>
+

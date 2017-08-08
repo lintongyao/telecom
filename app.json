@@ -1,0 +1,43 @@
+{
+  "pages":[
+   "page/OLTunit/OLTunit",
+   "page/ONUunit/ONUunit",
+   "page/yongsai/yongsai",
+   "page/terminal/terminal"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "接入维护信息查询",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "color": "#353535",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "white",
+      "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/OLTunit/OLTunit",
+        "text": "OLT集成表"
+      },
+      {
+        "pagePath": "page/ONUunit/ONUunit",
+        "text": "ONU集成表"
+      },
+      {
+        "pagePath": "page/yongsai/yongsai",
+        "text": "拥塞明细"
+      },
+      {
+        "pagePath": "page/terminal/terminal",
+        "text": "终端信息报表"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
